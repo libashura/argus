@@ -1,14 +1,19 @@
 import './globals.css'
 
 export const metadata = {
-  title: 'ProbeBlade - API Security Testing',
-  description: 'Automated API Security Testing Platform for OWASP API Top 10',
+  title: 'Argus  - API Security Testing',
+  description: 'Automated API Security Testing Platform',
 }
 
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body>{children}</body>
+      <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+      </head>
+      <body>
+        {children}
+      </body>
     </html>
   )
 }
